@@ -1,0 +1,132 @@
+header
+{
+    border-bottom: 2px solid #40B1F0;
+}
+
+header .container
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 35px;
+}
+
+div.logo img
+{
+    width: 260px;
+    display: block;
+}
+
+div.logo span.factory-name
+{
+    font-size: 18px;
+    line-height: 10px;
+
+    color: #848484;
+}
+
+div.contacts span
+{
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #9E9E9E;
+}
+
+a.service-phone
+{
+    font-size: 16px;
+    line-height: 19px;
+
+    font-weight: bold;
+}
+
+a.service-phone.green
+{
+    color: #099706;
+}
+
+a.service-phone.red
+{
+    color: #FD0000;
+}
+
+div.search
+{
+    border: 1px solid #000;
+    border-radius: 5px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 9px 0;
+    max-width: 520px;
+}
+
+div.search button
+{
+    width: 28px;
+    height: 28px;
+
+    background-color: transparent;
+
+    background-image: url('./img/search.svg');
+    background-size: 22px 22px;
+    margin: 4px 15px 4px 4px;
+}
+
+div.search input
+{
+    display: block;
+    width: calc(100% - 28px - 15px - 10px);
+
+    font-size: 16px;
+    line-height: 21px;
+}
+
+nav
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav a.nav-item
+{
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+    margin-right: 40px;
+}
+
+nav a.nav-item:last-child
+{
+    margin-right: unset;
+}
+
+div.logged span, div.logged a
+{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+span.greeting-name
+{
+    text-decoration: underline;
+}
+
+a.logout-btn
+{
+    color: #949494;
+}
+
+a.greeting-doc
+{
+    text-decoration: underline;
+}
